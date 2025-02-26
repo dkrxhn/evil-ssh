@@ -72,7 +72,7 @@ This will scan ports 20 to 100 on the remote machine.
 
 To exit the Evil-SSH shell:
 
-'exit'  
-'quit' 
+`exit`  
+`quit`  
 CTRL+C  
 
