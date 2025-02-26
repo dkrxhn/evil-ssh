@@ -36,7 +36,7 @@ To perform port knocking before connection:
 ## Available Commands
 
 ### File Transfer Commands
-Command	Description
+
 ```upload <localfile>```	Uploads a file to the current remote directory  
 ```upload <localfile>``` <remotefile>	Uploads a file with a specific name/path  
 ```download <remotefile>```	Downloads a file to the current local directory  
@@ -50,7 +50,7 @@ Example:
 `download /tmp/results.txt results_local.txt`  
 
 ### Privilege Escalation
-Command	Description  
+ 
 ```su <username>```	Switch user and enter password interactively
 
 Example:
@@ -69,11 +69,10 @@ Example:
 `scan 20 100`
 
 This will scan ports 20 to 100 on the remote machine.
-Exiting
 
 To exit the Evil-SSH shell:
 
-exit  
-quit  
+'exit'  
+'quit' 
 CTRL+C  
 
