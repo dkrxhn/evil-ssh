@@ -37,20 +37,20 @@ To perform port knocking before connection:
 
 ### File Transfer Commands
 Command	Description
-```upload <localfile>```	Uploads a file to the current remote directory
-```upload <localfile>``` <remotefile>	Uploads a file with a specific name/path
-```download <remotefile>```	Downloads a file to the current local directory
-```download <remotefile>``` <localfile>	Downloads and saves the file under a different name
+```upload <localfile>```	Uploads a file to the current remote directory  
+```upload <localfile>``` <remotefile>	Uploads a file with a specific name/path  
+```download <remotefile>```	Downloads a file to the current local directory  
+```download <remotefile>``` <localfile>	Downloads and saves the file under a different name  
 
 Example:
 
-`upload myscript.sh`
-`upload myscript.sh /tmp/myscript.sh`
-`download /tmp/results.txt`
-`download /tmp/results.txt results_local.txt`
+`upload myscript.sh`  
+`upload myscript.sh /tmp/myscript.sh`  
+`download /tmp/results.txt`  
+`download /tmp/results.txt results_local.txt`  
 
 ### Privilege Escalation
-Command	Description
+Command	Description  
 ```su <username>```	Switch user and enter password interactively
 
 Example:
@@ -73,7 +73,7 @@ Exiting
 
 To exit the Evil-SSH shell:
 
-exit
-quit
-CTRL+C
+exit  
+quit  
+CTRL+C  
 
